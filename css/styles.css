@@ -161,6 +161,7 @@ body {
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--accent-color);
+  fill: currentColor;
 }
 
 /*==================hero===================== */
@@ -445,7 +446,7 @@ body {
   color: var(--light-color);
 }
 .footer-soc-part {
-  padding-top: 15px;
+  display: block;
 }
 .footer-soc-title {
   text-align: start;
